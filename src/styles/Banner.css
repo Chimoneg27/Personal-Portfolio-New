@@ -1,0 +1,9 @@
+.intro-section {
+  position: relative;
+}
+
+.media-links {
+  position: absolute;
+  left: 0;
+  padding: 0.75rem 0.25rem;
+}
