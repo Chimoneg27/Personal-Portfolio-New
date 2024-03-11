@@ -23,7 +23,7 @@ const About = () => {
           </p>
 
           <p className="text-lg font-light mt-4 mb-2">
-          Im open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then dont hesitate to contact me.
+          I&apos;m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to contact me.
           </p>
         </div>
         <div className='about w-5/12'>
