@@ -1,3 +1,5 @@
+import bootstrap from '../assets/images/bootstrap.svg'
+
 const About = () => {
   return (
     <div className='py-20 px-16 about-section w-100'>
@@ -29,13 +31,8 @@ const About = () => {
         <div className='about w-5/12'>
           <h2 className="font-bold text-3xl">My skills</h2>
 
-          <div className="skills grid gap-4 grid-cols-3 grid-rows-3">
-          <span>01</span>
-          <span>02</span>
-          <span>03</span>
-          <span>04</span>
-          <span>05</span>
-          <span>06</span>
+          <div className="skills grid grid-cols-4 grid-rows-3 mt-8">
+          <img src={bootstrap} alt="bootstrap" className="w-8" />
           </div>
         </div>
       </div>
