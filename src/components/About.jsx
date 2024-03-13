@@ -1,4 +1,14 @@
 import bootstrap from '../assets/images/bootstrap.svg'
+import css from '../assets/images/css.svg'
+import git from '../assets/images/git.svg'
+import html from '../assets/images/html.svg'
+import javascript from '../assets/images/javascript.svg'
+import react from '../assets/images/react.svg'
+import reduxx from '../assets/images/redux.svg'
+import ruby from '../assets/images/ruby.svg'
+import rails from '../assets/images/rails.svg'
+import postgre from '../assets/images/postgresql.svg'
+import vsc from '../assets/images/vsc.svg'
 
 const About = () => {
   return (
@@ -31,8 +41,18 @@ const About = () => {
         <div className='about w-5/12'>
           <h2 className="font-bold text-3xl">My skills</h2>
 
-          <div className="skills grid grid-cols-4 grid-rows-3 mt-8">
-          <img src={bootstrap} alt="bootstrap" className="w-8" />
+          <div className="skills grid grid-cols-3 grid-rows-3 mt-8 gap-y-8">
+            <img src={bootstrap} alt="bootstrap-icon" className="w-16 h-16" />
+            <img src={git} alt="git-icon" className="w-16 h-16" />
+            <img src={html} alt="html-icon" className="w-16 h-16" />
+            <img src={javascript} alt="javascript-icon" className="w-16 h-16" />
+            <img src={css} alt="css-icon" className="w-16 h-16" />
+            <img src={react} alt="react-icon" className="w-16 h-16" />
+            <img src={reduxx} alt="redux-icon" className="w-16 h-16" />
+            <img src={ruby} alt="ruby-icon" className="w-16 h-16" />
+            <img src={rails} alt="rails-icon" className="w-16 h-16" />
+            <img src={postgre} alt="postgre-icon" className="w-16 h-16" />
+            <img src={vsc} alt="vsc-icon" className="w-16 h-16" />
           </div>
         </div>
       </div>
