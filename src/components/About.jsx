@@ -44,16 +44,16 @@ const About = () => {
 
           <div className="skills grid grid-cols-3 grid-rows-3 mt-8 gap-y-8">
             <img src={bootstrap} alt="bootstrap-icon" className="w-16 h-16 grey-scale" />
-            <img src={git} alt="git-icon" className="w-16 h-16" />
-            <img src={html} alt="html-icon" className="w-16 h-16" />
-            <img src={javascript} alt="javascript-icon" className="w-16 h-16" />
-            <img src={css} alt="css-icon" className="w-16 h-16" />
-            <img src={react} alt="react-icon" className="w-16 h-16" />
-            <img src={reduxx} alt="redux-icon" className="w-16 h-16" />
-            <img src={ruby} alt="ruby-icon" className="w-16 h-16" />
-            <img src={rails} alt="rails-icon" className="w-16 h-16" />
-            <img src={postgre} alt="postgre-icon" className="w-16 h-16" />
-            <img src={vsc} alt="vsc-icon" className="w-16 h-16" />
+            <img src={git} alt="git-icon" className="w-16 h-16 grey-scale" />
+            <img src={html} alt="html-icon" className="w-16 h-16 grey-scale" />
+            <img src={javascript} alt="javascript-icon" className="w-16 h-16 grey-scale" />
+            <img src={css} alt="css-icon" className="w-16 h-16 grey-scale" />
+            <img src={react} alt="react-icon" className="w-16 h-16 grey-scale" />
+            <img src={reduxx} alt="redux-icon" className="w-16 h-16 grey-scale" />
+            <img src={ruby} alt="ruby-icon" className="w-16 h-16 grey-scale" />
+            <img src={rails} alt="rails-icon" className="w-16 h-16 grey-scale" />
+            <img src={postgre} alt="postgre-icon" className="w-16 h-16 grey-scale" />
+            <img src={vsc} alt="vsc-icon" className="w-16 h-16 grey-scale" />
           </div>
         </div>
       </div>
