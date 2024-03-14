@@ -9,6 +9,7 @@ import ruby from '../assets/images/ruby.svg'
 import rails from '../assets/images/rails.svg'
 import postgre from '../assets/images/postgresql.svg'
 import vsc from '../assets/images/vsc.svg'
+import '../styles/hover.css'
 
 const About = () => {
   return (
@@ -42,7 +43,7 @@ const About = () => {
           <h2 className="font-bold text-3xl">My skills</h2>
 
           <div className="skills grid grid-cols-3 grid-rows-3 mt-8 gap-y-8">
-            <img src={bootstrap} alt="bootstrap-icon" className="w-16 h-16" />
+            <img src={bootstrap} alt="bootstrap-icon" className="w-16 h-16 grey-scale" />
             <img src={git} alt="git-icon" className="w-16 h-16" />
             <img src={html} alt="html-icon" className="w-16 h-16" />
             <img src={javascript} alt="javascript-icon" className="w-16 h-16" />
