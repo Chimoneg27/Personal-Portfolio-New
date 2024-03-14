@@ -1,0 +1,10 @@
+/* for my greyscale images */
+
+.grey-scale {
+  filter: grayscale(100%);
+}
+
+.grey-scale:hover {
+  filter: grayscale(0%);
+  cursor: pointer;
+}
