@@ -58,23 +58,23 @@ const Banner = () => {
         </button>
       </div>
 
-      <ul className="media-links mt-20 bg-white h-64 w-16 flex flex-col justify-evenly items-center">
-        <li className='h-8 w-9 flex items-center justify-center'>
+      <ul className="media-links mt-20 bg-white h-64 w-16 flex flex-col justify-evenly items-center rounded-lg shadow-xl">
+        <li className='h-10 w-10 flex items-center justify-center hover:bg-gray-300'>
           <a href="#" className="p-1">
             <img src={linkedin} alt="linkedin" className="w-8" />
           </a>
         </li>
-        <li className='h-8 w-9 flex items-center justify-center'>
+        <li className='h-10 w-10 flex items-center justify-center hover:bg-gray-300'>
           <a href="#">
             <img src={x} alt="x" className="w-8" />
           </a>
         </li>
-        <li className='h-8 w-9 flex items-center justify-center'>
+        <li className='h-10 w-10 flex items-center justify-center hover:bg-gray-300'>
           <a href="#">
             <img src={github} alt="github" className="w-8" />
           </a>
         </li>
-        <li className='h-8 w-9 flex items-center justify-center'>
+        <li className='h-10 w-10 flex items-center justify-center hover:bg-gray-300'>
           <a href="#">
             <img src={medium} alt="medium" className="w-8" />
           </a>
