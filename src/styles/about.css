@@ -1,0 +1,56 @@
+@media (max-width: 560px) {
+  .about-top {
+    width: 100%;
+  }
+
+  .about-top h2 {
+    margin-top: 1.25rem;
+  }
+
+  .about-section {
+    padding: 0.25rem;
+  }
+
+  .p-about {
+    padding: 0.2rem;
+    margin-top: 0.3rem;
+  }
+
+  .divider {
+    flex-direction: column;
+  }
+
+  .me-info {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .me-info h2 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .me-info p {
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+
+  .skills {
+    margin-top: 1rem;
+    width: 100%;
+  }
+
+  .skills h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .tech-grid {
+    justify-items: center;
+    align-items: center;
+  }
+
+  .grey-scale {
+    filter: grayscale(0%);
+  }
+}
