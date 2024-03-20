@@ -10,6 +10,7 @@ import rails from '../assets/images/rails.svg'
 import postgre from '../assets/images/postgresql.svg'
 import vsc from '../assets/images/vsc.svg'
 import '../styles/hover.css'
+import '../styles/about.css'
 
 const About = () => {
   return (
@@ -17,12 +18,12 @@ const About = () => {
       <div className="about-top text-center mb-20 flex flex-col justify-center items-center">
         <h2 className='text-4xl font-bold p-3'>ABOUT ME</h2>
 
-        <p className="text-xl font-bold w-100">
+        <p className="text-xl font-bold w-100 p-about">
             Here you will find more information about and what I do in terms of programming, my current skills and some of my hobbies.
         </p>
       </div>
       <div className='divider flex flex-row gap-x-8 justify-between'>
-        <div className='tech-stack w-5/12'>
+        <div className='me-info w-5/12'>
           <h2 className="font-bold text-3xl">Get to know me!</h2>
 
           <p className="text-lg font-light mt-4 mb-2">
@@ -39,10 +40,10 @@ const About = () => {
           I&apos;m open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don&apos;t hesitate to contact me.
           </p>
         </div>
-        <div className='about w-5/12'>
+        <div className='skills w-5/12'>
           <h2 className="font-bold text-3xl">My skills</h2>
 
-          <div className="skills grid grid-cols-3 grid-rows-3 mt-8 gap-y-8">
+          <div className="tech-grid grid grid-cols-3 grid-rows-3 mt-8 gap-y-8">
             <img src={bootstrap} alt="bootstrap-icon" className="w-16 h-16 grey-scale" />
             <img src={git} alt="git-icon" className="w-16 h-16 grey-scale" />
             <img src={html} alt="html-icon" className="w-16 h-16 grey-scale" />
